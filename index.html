@@ -1,0 +1,85 @@
+<html>
+        <head>
+                <title>Página web de Perritos</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+        </head>
+        
+        <body>
+
+
+                <!--Las siguientes etiquetas son para encabezados-->
+           <h1>Página de mascotas</h1>  
+           <h2>Esta es una página de perritos</h2>
+           <h3>Hecha por: Laura Flores</h3>   
+
+           <!--Agregar imagen desde internet-->
+           <img src="https://www.nombresdeperros.eu/wp-content/uploads/2020/10/nombres-chinos-para-perros-pug.jpg">
+
+           <br> <!--Para dejar las imagenes con separacion-->
+
+           <!--Agregar imagen desde computadora-->
+
+           <img src="imagenes/tinky.jpg">
+
+           <!--Listas ordenadas y desordenadas-->
+           <h3>Lista de Perritos</h3>
+           <p>3 cosas que los perritos <strong>aman</strong></p>
+
+           <!--Lista ordenada-->
+           <ol> <!--Ordered List-->
+                <li>Jugar</li>
+                <li>Comer pollito</li>
+                <li>Dormir</li>
+           </ol>
+
+           <!--Lista desordenada-->
+           <p>3 cosas que los perritos <strong>odian</strong></p>
+           <ul>
+                <!--Para poner varios elementos con asterisco y la cantidad-->
+                <li>Bañarse</li>
+                <li>Ir al veterinario</li>
+                <li>Comer croquetas</li>
+           </ul>
+
+           <!--Crear enlaces externos-->
+           <!--Para poner un párrafo se usa la letra P-->
+
+           <p>Si quieres ver más fotos de perritos <a href=" https://www.google.com/search?q=perritos+&tbm=isch&ved=2ahUKEwiIt_SZ-vD8AhW9oYQIHX2jCNMQ2-cCegQIABAA&bih=657&biw=1366&rlz=1C1UEAD_esMX992MX1036"target="_blank">da click aquí</a></p>
+
+           <!--Donde finaliza el link se pone espacio, la palabra target, signo de igual, guion bajo y la palabra blank para abrir otro hipervinculo-->
+
+           <!--Formularios con botones de radio-->
+           <form>
+                <p>¿Tú perrito es cachorro o es adulto?</p>
+                <label>
+                        <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked> Cachorro
+                </label>
+                <br>
+                <label>
+                        <input id="adulto" type="radio" value="adulto" name="cachorro-adulto"> Adulto
+                </label>
+              <!--Formulario con casillas de verificación--> 
+              <p>¿Cómo es el carácter de tu perro?</p>
+              <label>
+                <input id="Perezoso" type="checkbox" value="Perezoso" name="Personalidad" checked> Perezoso
+              </label>
+              <br>
+              <label>
+                <input id="Enérgico" type="checkbox" value="Enérgico" name="Personalidad" checked> Enérgico
+              </label>
+              <br>
+              <label>
+                <input id="Jugetón" type="checkbox" value="Jugetón" name="Personalidad" checked> Juguetón
+              </label>
+           </form>
+
+           <footer>
+                <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></small></p>
+           </footer>
+           
+        </body>
+</html>

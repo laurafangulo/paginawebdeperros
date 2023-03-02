@@ -1,0 +1,27 @@
+body{
+    color:#c7b4a9;
+    /*Ponerle color al fondo*/
+    background-color:#39584a;
+    font-family:'Montserrat', sans-serif;
+}
+
+h1{
+    color: #936d72;
+    font-size: 60px;
+}
+
+h3{
+    color: #b18f59;
+    font-size: 40px;
+}
+img{
+    width: 400px; /*Ancho*/
+    height: 300px; /*Largo*/
+    padding: 30px; /*Separacion entre imagenes*/
+    margin: 20px; /*Para poner margen*/
+}
+
+footer{
+    background-color: #202b20;
+    padding: 15px;
+}
