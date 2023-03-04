@@ -27,4 +27,4 @@ En este proyecto me enfoqué en construir una página web enfocada a los perros.
 Aprender a utilizar las etiquetas estándar de HTML5 y los estilos de CSS3.
 
 ## 4. Link a Demo
-Aquí puedes visualizar mi proyecto terminado: [Página web de Perritos] (https://paginade-perritos.netlify.app)
+Aquí puedes visualizar mi proyecto terminado: [Página web de Perritos](https://paginade-perritos.netlify.app)
